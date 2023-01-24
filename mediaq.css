@@ -1,0 +1,73 @@
+@media screen and (max-width : 368px){
+    .container{
+        width: 100vw;
+    }
+    .title{
+        width: 450px;
+        height: 120px;
+        margin-left: 130px;
+    }
+    .text1{
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    .box{
+        margin-left: 130px;
+        width: 450px;
+        height: 400px;
+    }
+    .container1{
+        width: 450px;
+        height: 400px;
+    }
+    .target{
+        width: 450px;
+        height: 100px;
+        
+    }
+    #target1{
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .form{
+        height: 100px;
+    }
+    #display{
+        height: 35px;
+        width: 250px;
+    }
+    #submit{
+        width: 200px;
+        height: 40px;
+    }
+    .downtext{
+        height: 102px;
+        margin-top: 70px;
+    }
+    #feedback{
+        width: 230px;
+        font-size: 20px;
+    }
+    #check{
+        font-size: 20px;
+    }
+    #img{
+        width: 300px;
+        height: 250px;
+    }
+    #score{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .container #warning{
+        margin-left: 130px;
+        padding-left: 10px;
+       width: 500px;
+    }
+
+}
+@media screen and (min-width : 369px) and (max-width : 768px){
+
+}
