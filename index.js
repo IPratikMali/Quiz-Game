@@ -172,7 +172,7 @@ let func1 = () => {
         let ans = document.getElementById("display").value;
         if (ans.toLowerCase() == "no") {
             points = points + 1;
-            if (points < 3) {
+            if (points <= 3) {
                 let score = `Your Score is ${points} / 5`;
                 document.getElementById("target1").innerHTML = "oops , You Don't Know Much About Me But You did well"
                 document.getElementById("score").innerHTML = score;
@@ -216,7 +216,7 @@ let func1 = () => {
             }
         }
         else {
-            if (points < 3) {
+            if (points <= 3) {
                 let score = `Your Score is ${points} / 5`;
                 document.getElementById("target1").innerHTML = "oops , You Don't Know Much About Me But You did well"
                 document.getElementById("score").innerHTML = score;
